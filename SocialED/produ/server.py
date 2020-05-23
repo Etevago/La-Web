@@ -1,4 +1,5 @@
 # -*- coding: iso-8859-15 -*-
+<link href="static/css/socialed-style.css" rel="stylesheet" type="text/css"/>
 
 
 from flask import Flask, request
@@ -96,7 +97,7 @@ def processHome():
            '</head>' \
            '<body> <div id="container">' \
            '<a href="/"> SocialED </a> | <a href="home"> Inicio </a> | <a href="login"> Acceso </a> | <a href="signup"> Registro </a>' \
-           '<h1>Hola internauta, qué tal estás?</h1>' \
+           '<h1>Hola internauta, quÃ© tal estÃ¡s?</h1>' \
            '<form action="processHome" method="post" name="home"> ' \
            '<label for="message">Escribe algo...</label><div class="inputs">' \
            '<input id="message" maxlength="128" name="message" size="80" type="text" required="true" value=""/>' \
