@@ -1,5 +1,5 @@
 # -*- coding: iso-8859-15 -*-
-<link href="static/css/socialed-style.css" rel="stylesheet" type="text/css"/>
+
 
 
 from flask import Flask, request
